@@ -1,6 +1,6 @@
 ## Week 38 - exercises 
 
-#### Please follow the links in the README file to fint the solutions for the exercises.
+#### Please follow the links in the README file to find the solutions for the exercises.
 
 ### Tuesday
 
