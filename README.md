@@ -6,7 +6,7 @@
 
 #### Exercise: JPA Relations - almost completed
 
-* I didn't have time to finish the last part of the assignment 5) Many-To-Many
+* I didn't have time to complete the last part of the assignment 5) Many-To-Many
 
 * [Click here](https://github.com/amandajuhl95/week38/tree/master/tuesdayExercise/src/main/java)
 
@@ -20,7 +20,7 @@
 
 ### Friday
 
-#### Exercise: Object Relational Mapping with JPA
+#### Exercise: Object Relational Mapping with JPA - Solution completed
 
 * Below is the answers on the exercise
 
@@ -30,4 +30,4 @@
 
 * [Click here](https://github.com/amandajuhl95/week38/tree/master/fridayExercise/src/main/java)
 
-* I didn't do the exercise: "JPA and JPQL (entity classes from existing table)"
+* I didn't do the exercise: "JPA and JPQL (entity classes from existing table)", because of time pressure
