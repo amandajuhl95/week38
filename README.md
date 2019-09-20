@@ -30,3 +30,4 @@
 
 * [Click here](https://github.com/amandajuhl95/week38/tree/master/fridayExercise/src/main/java)
 
+* I didn't do the exercise: "JPA and JPQL (entity classes from existing table)"
