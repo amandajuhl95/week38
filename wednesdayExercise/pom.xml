@@ -67,6 +67,16 @@
             <version>2.29</version>
             <!--            <type>zip</type>-->
         </dependency>
+        <dependency>
+            <groupId>org.glassfish.jersey.containers</groupId>
+            <artifactId>jersey-container-servlet</artifactId>
+            <version>2.26</version>
+        </dependency>
+        <dependency>
+            <groupId>org.glassfish.jersey.inject</groupId>
+            <artifactId>jersey-hk2</artifactId>
+            <version>2.26</version>
+        </dependency>
         
         <dependency>
             <groupId>org.junit.jupiter</groupId>
@@ -125,8 +135,8 @@
     <build>
        
         <plugins>
-             <!-- Plugin used to deploy to remote server -->
-             <plugin>
+            <!-- Plugin used to deploy to remote server -->
+            <plugin>
                 <groupId>org.apache.tomcat.maven</groupId>
                 <artifactId>tomcat7-maven-plugin</artifactId>
                 <version>2.2</version>

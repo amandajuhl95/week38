@@ -30,7 +30,7 @@ public class PersonResourceTest {
     private static final int SERVER_PORT = 7777;
     private static final String SERVER_URL = "http://localhost/api";
     //Read this line from a settings-file  since used several places
-    private static final String TEST_DB = "jdbc:mysql://localhost:3307/person_test";
+    private static final String TEST_DB = "jdbc:mysql://localhost:3307/startcode_test";
 
     static final URI BASE_URI = UriBuilder.fromUri(SERVER_URL).port(SERVER_PORT).build();
     private static HttpServer httpServer;
@@ -110,7 +110,6 @@ public class PersonResourceTest {
                         "lastname", hasItems("Saxtrup", "Haslund", "Juhl", "Landt"));
     }
 
-    //tests the endpoint that gets the person with the given id
     @Test
     public void testGetPerson() throws Exception {
         given()
@@ -133,7 +132,6 @@ public class PersonResourceTest {
 
     }
 
-    //tests the endpoint that gets the person with the given id
     @Test
     public void testAddPerson() throws Exception {
 
@@ -151,7 +149,6 @@ public class PersonResourceTest {
                 .body("firstname", equalTo("Benjamin"), "lastname", equalTo("Kongshaug"), "phone", equalTo("20141614"));
     }
 
-    //tests the endpoint that gets the person with the given id
     @Test
     public void testEditPerson() throws Exception {
 
@@ -187,7 +184,6 @@ public class PersonResourceTest {
 
     }
 
-    //tests the endpoint that gets the person with the given id
     @Test
     public void testRemovePerson() throws Exception {
 
